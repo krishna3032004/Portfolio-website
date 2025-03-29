@@ -200,7 +200,7 @@ export default function Home() {
           <motion.h2 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1.4 }} className="text-gray-400 font-bold text-2xl lg:text-6xl sm:text-4xl md:text-5xl mt-4">Bringing ideas to life with code.</motion.h2>
 
           <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1.6 }} className=" leading-relaxed   text-gray-400 font-Header text-sm md:text-lg sm:text-md mt-10 tracking-wider ">
-            I'm a <span className="text-cyan-400">Full Stack Software Engineer</span> with a passion for creating <span className="text-cyan-400">innovative and performance-driven applications. </span>
+            I&apos;m a <span className="text-cyan-400">Full Stack Software Engineer</span> with a passion for creating <span className="text-cyan-400">innovative and performance-driven applications. </span>
             With expertise in both <span className="text-cyan-400">front-end</span> and <span className="text-cyan-400">back-end development</span>,
             I work with a diverse range of technologies, including <span className="text-cyan-400">web3</span> and traditional web applications. I enjoy solving
             challenging projects that drive <span className="text-cyan-400">innovation</span> and deliver high-quality results.  My approach is rooted in <span className="text-cyan-400">problem-solving </span>
@@ -232,12 +232,12 @@ export default function Home() {
               {/* <div className="lg:w-3/5"> */}
               <div className="w-full md:w-7/12 space-y-4 sm:text-base text-sm ">
                 <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1.4 }} className="text-gray-300 text-justify  leading-relaxed ">
-                  {/* Hello! My name is Krishna Gupta, and I'm a passionate <span className="text-cyan-400">Lead Full Stack Software Engineer</span> with strong problem-solving skills. My journey in computer science started at 11 years old when I explored Ethical Hacking using BackTrack OS, which started my interest in programming. Over the years, I continued to teach myself coding, which led me to pursue an <span className="text-cyan-400">engineering degree</span> and afterward a second degree in <span className="text-cyan-400">Master of Computer Science</span>, making me a professional in this field. */}
-                  Hello! My name is Krishna, and I’m a passionate <span className="text-cyan-400">Full-Stack Web Developer </span>  with a strong <span className="text-cyan-400">problem-solving </span>mindset. My journey into the world of technology began with a curiosity for building things that not only function efficiently but also provide an outstanding user experience. I specialize in  <span className="text-cyan-400">Next.js, React.js, Node.js, Express.js, </span>and <span className="text-cyan-400">MongoDB</span>, crafting high-performance web applications that seamlessly merge design and functionality.
+
+                  Hello! My name is Krishna, and I&apos;m a passionate <span className="text-cyan-400">Full-Stack Web Developer </span>  with a strong <span className="text-cyan-400">problem-solving </span>mindset. My journey into the world of technology began with a curiosity for building things that not only function efficiently but also provide an outstanding user experience. I specialize in  <span className="text-cyan-400">Next.js, React.js, Node.js, Express.js, </span>and <span className="text-cyan-400">MongoDB</span>, crafting high-performance web applications that seamlessly merge design and functionality.
                 </motion.p>
 
                 <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1.6 }} className="text-gray-300 text-justify mt-6 leading-relaxed ">
-                  {/* Throughout my education and career, from my self-learning days to earning my degrees, I've gained experience in various industries. I have had the opportunity to work with companies and startups, including <span className="text-cyan-400">Vision, FeverTokens, TrouveTavoi</span>, and many others, including transportation and international companies. At FeverTokens, I led the development of an innovative NFT marketplace, and at Vision, which is <span className="text-cyan-400">the second-largest market</span> in the world for <span className="text-cyan-400">ENS</span>, I led the development of their new NameWrapper release. */}
+                 
                   Beyond <span className="text-cyan-400">coding </span>, I have a keen interest in <span className="text-cyan-400">Data Structures and Algorithms </span>, constantly honing my <span className="text-cyan-400">problem-solving </span> skills to build better, more efficient applications. Throughout my education and self-learning, I have worked on multiple projects, including <span className="text-cyan-400">Opulenza </span>, a fully functional e-commerce platform deployed on <span className="text-cyan-400">Vercel </span>, as well as a <span className="text-cyan-400">Dermatology platform </span> ,which connect the patient with dermotologist, each demonstrating my ability to blend technology with real-world solutions.
                 </motion.p>
               </div>
@@ -508,8 +508,8 @@ export default function Home() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.3 }}
           >
-            Although I'm always open for any new opportunities, my inbox is open.
-            Whether you have a question or just want to say hi, I'll try my best to get back to you!
+            Although I&apos;m always open for any new opportunities, my inbox is open.
+            Whether you have a question or just want to say hi, I&apos;ll try my best to get back to you!
           </p>
           <Link href={"mailto:krishnagupta30mar@gmail.com"} target="_blank" rel="noreferrer">
             <button data-aos="fade-up"
@@ -535,8 +535,8 @@ export default function Home() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.3 }}
           >
-            Although I'm always open for any new opportunities, my inbox is open.
-            Whether you have a question or just want to say hi, I'll try my best to get back to you!
+            Although I&apos;m always open for any new opportunities, my inbox is open.
+            Whether you have a question or just want to say hi, I&apos;ll try my best to get back to you!
           </motion.p>
           <Link href={"mailto:krishnagupta30mar@gmail.com"} target="_blank" rel="noreferrer">
             <motion.button
