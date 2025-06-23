@@ -200,7 +200,7 @@ export default function Home() {
           <motion.h2 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1.4 }} className="text-gray-400 font-bold text-2xl lg:text-6xl sm:text-4xl md:text-5xl mt-4">Bringing ideas to life with code.</motion.h2>
 
           <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1.6 }} className=" leading-relaxed   text-gray-400 font-Header text-sm md:text-lg sm:text-md mt-10 tracking-wider ">
-            I&apos;m a <span className="text-cyan-400">Full Stack Software Engineer</span> with a passion for creating <span className="text-cyan-400">innovative and performance-driven applications. </span>
+            I&apos;m a <span className="text-cyan-400">Full Stack Web Developer</span> with a passion for creating <span className="text-cyan-400">innovative and performance-driven applications. </span>
             With expertise in both <span className="text-cyan-400">front-end</span> and <span className="text-cyan-400">back-end development</span>,
             I work with a diverse range of technologies, including <span className="text-cyan-400">web3</span> and traditional web applications. I enjoy solving
             challenging projects that drive <span className="text-cyan-400">innovation</span> and deliver high-quality results.  My approach is rooted in <span className="text-cyan-400">problem-solving </span>
@@ -356,6 +356,46 @@ export default function Home() {
             <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96  ">
               {/* <div className="relative md:grid md:grid-cols-12 w-full md:h-96 aos-init aos-animate"> */}
               <div className="hidden bg-AAprimary z-10  py-4  absolute md:grid grid-cols-12 w-full h-full  content-center ">
+                <div className="relative rounded w-full h-full  col-span-7 ">
+                <Link href="https://anandamwellness-xi.vercel.app" target="_blank" rel="noopener noreferrer"><Image src="/anandam2.png" width={500} height={300} className="w-full rounded h-full transition-all duration-500 brightness-60 hover:brightness-90" alt=""></Image></Link>
+                </div>
+              </div>
+              <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
+                <div className="absolute md:hidden w-full h-full opacity-20 z-0 md:order-2">
+                  <div className="relative w-full h-full">
+                    <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
+                    <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
+                    <Link href="https://anandamwellness-xi.vercel.app" target="_blank" rel="noopener noreferrer"><Image src="/getmeacoffee2.png" width={500} height={300} className="w-full h-full" alt=""></Image></Link>
+                  </div>
+                </div>
+                <div className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 col-start-5 items-start  col-span-8 flex flex-col md:items-end space-y-3">
+                  <div className="flex flex-col space-y-1 md:items-end  z-10">
+                    {/* <span className="text-[rgb(100,255,218)] text-base items-start flex ">Vision.io</span> */}
+                    <Link href="https://anandamwellness-xi.vercel.app" target="_blank" rel="noopener noreferrer">
+                      <span className=" md:text-gray-200 text-[rgb(100,255,218)] font-bold text-xl hover:cursor-pointer">Anandam Wellness</span>
+                    </Link>
+                  </div>
+                  <div className="w-full md:bg-[rgb(17,35,64)] rounded-md py-6 md:p-6  z-10">
+                    {/* <p className="text-gray-300 md:text-gray-400 text-left md:text-left ">A <span className="text-[rgb(100,255,218)]">full-stack </span>web application built with <span className="text-[rgb(100,255,218)]">Next.js </span> that replicates the core functionalities of <span className="text-[rgb(100,255,218)]">Patreon. </span> This platform allows content creators to receive payments and support from their fans. Fans can make payments, leave messages, and view the top contributions.
+                    <span className="text-[rgb(100,255,218)]">top contributions.</span>\
+                    </p> */}
+                    {/* **Anandam Wellness** is a full-stack telemedicine platform focused on dermatology consultations. It allows users to connect with doctors, chat in real-time, initiate secure video calls, and receive digital prescriptions. Doctors can manage their profiles, which are verified by admins before going live. The platform uses modern web technologies like Next.js, Socket.IO, WebRTC, and Razorpay. */}
+                    {/* Anandam Wellness is a feature-rich telemedicine platform built with Next.js (App Router), enabling seamless online consultations between doctors and patients. This project aims to bridge the gap between healthcare providers and patients by offering real-time chat, video consultations, and digital prescriptions — all in a secure and user-friendly interface. */}
+                    <p className="text-gray-300 md:text-gray-400 text-left md:text-left "> <span className="text-[rgb(100,255,218)]">Anandam Wellness </span> is a feature-rich telemedicine platform built with  <span className="text-[rgb(100,255,218)]">Next.js </span> (App Router), enabling seamless online consultations between doctors and patients. This project aims to bridge the gap between healthcare providers and patients by offering <span className="text-[rgb(100,255,218)]">real-time chat, video consultations, and digital prescriptions </span>  — all in a <span className="text-[rgb(100,255,218)]">secure</span> and user-friendly interface.
+                    <span className="text-[rgb(100,255,218)]"></span>
+                    </p>
+
+                    </div><ul className="flex flex-wrap w-full text-gray-300 md:text-gray-400 text-sm font-Text2 md:justify-end"><span className="pr-4 z-10">React</span><span className="pr-4 z-10">Next.js</span><span className="pr-4 z-10">Next-Auth</span><span className="pr-4 z-10">Mongoose</span><span className="pr-4 z-10">Razorpay</span><span className="pr-4 z-10">Socket.IO</span><span className="pr-4 z-10">Node.js</span><span className="pr-4 z-10">Express</span></ul><div className="z-10 flex fle-row space-x-5 "><Link href="https://github.com/krishna3032004/Anandam-Wellness---a-Dermotology-plateform.git" target="_blank" rel="noreferrer"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6 text-gray-300 hover:text-AAsecondary hover:cursor-pointer  transition ease-in-out delay-50 hover:-translate-y-1  hover:scale-110 duration-200"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></Link><Link href="https://anandamwellness-xi.vercel.app" target="_blank" rel="noreferrer"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6 text-gray-300 hover:text-[rgb(100,255,218)] hover:cursor-pointer transition ease-in-out delay-50 hover:-translate-y-1  hover:scale-110 duration-200"><title>External Link</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></Link>
+                    {/* <Link href="https://www.vision.io" target="_blank" rel="noreferrer"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6 text-gray-300 hover:text-[rgb(100,255,218)] hover:cursor-pointer transition ease-in-out delay-50 hover:-translate-y-1  hover:scale-110 duration-200"><title>External Link</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></Link> */}
+                    </div></div>
+              </div>
+            </div>
+
+
+
+            <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96  ">
+              {/* <div className="relative md:grid md:grid-cols-12 w-full md:h-96 aos-init aos-animate"> */}
+              <div className="hidden bg-AAprimary z-10  py-4  absolute md:grid grid-cols-12 w-full h-full  content-center ">
                 <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
                   <Link href="https://opulenza-psi.vercel.app/" target="_blank" rel="noopener noreferrer"><Image src="/opulenza2.png" width={500} height={300} className="w-full rounded h-full transition-all duration-500 brightness-60 hover:brightness-90" alt=""></Image></Link>
                 </div>
@@ -406,8 +446,8 @@ export default function Home() {
                     </Link>
                   </div>
                   <div className="w-full md:bg-[rgb(17,35,64)] rounded-md py-6 md:p-6  z-10">
-                    <p className="text-gray-300 md:text-gray-400 text-left md:text-left ">A <span className="text-[rgb(100,255,218)]">full-stack </span>web application built with <span className="text-[rgb(100,255,218)]">Next.js </span> that replicates the core functionalities of <span className="text-[rgb(100,255,218)]">Patreon. </span> This platform allows content creators to receive payments and support from their fans. Fans can make payments, leave messages, and view the top contributions.
-                    <span className="text-[rgb(100,255,218)]">top contributions.</span>
+                    <p className="text-gray-300 md:text-gray-400 text-left md:text-left ">A <span className="text-[rgb(100,255,218)]">full-stack </span>web application built with <span className="text-[rgb(100,255,218)]">Next.js </span> that replicates the core functionalities of <span className="text-[rgb(100,255,218)]">Patreon. </span> This platform allows content creators to receive payments and support from their fans. Fans can make payments, leave messages, and view the 
+                    <span className="text-[rgb(100,255,218)]"> top contributions.</span>
                     {/* . This showcased our commitment to delivering innovative solutions. */}
                     </p></div><ul className="flex flex-wrap w-full text-gray-300 md:text-gray-400 text-sm font-Text2 md:justify-end"><span className="pr-4 z-10">React</span><span className="pr-4 z-10">Next.js</span><span className="pr-4 z-10">Next-Auth</span><span className="pr-4 z-10">Mongoose</span><span className="pr-4 z-10">Razorpay</span></ul><div className="z-10 flex fle-row space-x-5 "><Link href="https://github.com/krishna3032004/GetMeACoffee-app-using-next.js.git" target="_blank" rel="noreferrer"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6 text-gray-300 hover:text-AAsecondary hover:cursor-pointer  transition ease-in-out delay-50 hover:-translate-y-1  hover:scale-110 duration-200"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></Link>
                     {/* <Link href="https://www.vision.io" target="_blank" rel="noreferrer"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6 text-gray-300 hover:text-[rgb(100,255,218)] hover:cursor-pointer transition ease-in-out delay-50 hover:-translate-y-1  hover:scale-110 duration-200"><title>External Link</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></Link> */}
