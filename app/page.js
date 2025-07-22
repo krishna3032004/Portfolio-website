@@ -365,7 +365,7 @@ export default function Home() {
                   <div className="relative w-full h-full">
                     <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                     <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                    <Link href="https://anandamwellness-xi.vercel.app" target="_blank" rel="noopener noreferrer"><Image src="/getmeacoffee2.png" width={500} height={300} className="w-full h-full" alt=""></Image></Link>
+                    <Link href="https://anandamwellness-xi.vercel.app" target="_blank" rel="noopener noreferrer"><Image src="/anandam2.png" width={500} height={300} className="w-full h-full" alt=""></Image></Link>
                   </div>
                 </div>
                 <div className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 col-start-5 items-start  col-span-8 flex flex-col md:items-end space-y-3">
