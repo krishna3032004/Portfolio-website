@@ -237,7 +237,7 @@ export default function Home() {
                 </motion.p>
 
                 <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1.6 }} className="text-gray-300 text-justify mt-6 leading-relaxed ">
-                 
+
                   Beyond <span className="text-cyan-400">coding </span>, I have a keen interest in <span className="text-cyan-400">Data Structures and Algorithms </span>, constantly honing my <span className="text-cyan-400">problem-solving </span> skills to build better, more efficient applications. Throughout my education and self-learning, I have worked on multiple projects, including <span className="text-cyan-400">Opulenza </span>, a fully functional e-commerce platform deployed on <span className="text-cyan-400">Vercel </span>, as well as a <span className="text-cyan-400">Dermatology platform </span> ,which connect the patient with dermotologist, each demonstrating my ability to blend technology with real-world solutions.
                 </motion.p>
               </div>
@@ -352,12 +352,51 @@ export default function Home() {
           </div>
           <div className="flex flex-col   xl:space-y-36 space-y-8 md:space-y-28">
 
+            <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96  ">
+              {/* <div className="relative md:grid md:grid-cols-12 w-full md:h-96 aos-init aos-animate"> */}
+              <div className="hidden bg-AAprimary z-10  py-4  absolute md:grid grid-cols-12 w-full h-full  content-center ">
+                <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
+                  <Link href="https://price-tracker-one-jet.vercel.app" target="_blank" rel="noopener noreferrer"><Image src="/pricetracker.png" width={500} height={300} className="w-full rounded h-full transition-all duration-500 brightness-60 hover:brightness-90" alt=""></Image></Link>
+                </div>
+              </div>
+              <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
+                <div className="absolute w-full h-full opacity-20 md:hidden z-0 md:order-2">
+                  <div className="relative w-full h-full">
+                    <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
+                    <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
+                    <Link href="https://price-tracker-one-jet.vercel.app" target="_blank" rel="noopener noreferrer"><Image src="/pricetracker.png" width={500} height={300} className="w-full h-full" alt=""></Image></Link>
+                  </div>
+                </div>
+                <div className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 col-span-8 flex flex-col items-start  space-y-3 md:order-1">
+                  <div className="flex flex-col space-y-1  z-10">
+                    {/* <span className="text-[rgb(100,255,218)] text-base items-start flex">Vision.io</span> */}
+                    <Link href="https://price-tracker-one-jet.vercel.app" target="_blank" rel="noopener noreferrer">
+                      <span className=" md:text-gray-200 text-[rgb(100,255,218)] font-bold text-xl hover:cursor-pointer">Price Tracker</span>
+                    </Link>
+                  </div>
+                  <div className="w-full md:bg-[rgb(17,35,64)] rounded-md py-6 md:p-6  z-10">
+                    <p className="text-gray-300 md:text-gray-400 text-left md:text-left ">
+                      <span className="text-[rgb(100,255,218)]">Price Tracker</span> is a full-stack application built with <span className="text-[rgb(100,255,218)]">Next.js</span> and <span className="text-[rgb(100,255,218)]">Python</span> for price prediction.
+                      It scrapes live product prices from Amazon and Flipkart using <span className="text-[rgb(100,255,218)]">Puppeteer</span>, stores historical data in MongoDB, and predicts future prices with a machine learning model.
+                      Users get real-time price drop alerts via email and can visualize past and predicted prices through interactive graphs.
+                    </p>
+                  </div>
+                  <ul className="flex flex-wrap w-full text-gray-300 md:text-gray-400 text-sm font-Text2 md:justify-start">
+                    <span className="pr-4 z-10">Next.js</span>
+                    <span className="pr-4 z-10">React</span>
+                    <span className="pr-4 z-10">Python</span>
+                    <span className="pr-4 z-10">Puppeteer</span>
+                    <span className="pr-4 z-10">MongoDB</span>
+                    <span className="pr-4 z-10">Nodemailer</span>
+                  </ul><div className="z-10 flex fle-row space-x-5 "><Link href="https://github.com/krishna3032004/Price-tracker.git" target="_blank" rel="noreferrer"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6 text-gray-300 hover:text-AAsecondary hover:cursor-pointer  transition ease-in-out delay-50 hover:-translate-y-1  hover:scale-110 duration-200"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></Link><Link href="https://price-tracker-one-jet.vercel.app" target="_blank" rel="noreferrer"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6 text-gray-300 hover:text-[rgb(100,255,218)] hover:cursor-pointer transition ease-in-out delay-50 hover:-translate-y-1  hover:scale-110 duration-200"><title>External Link</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></Link></div></div>
+              </div>
+            </div>
 
             <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96  ">
               {/* <div className="relative md:grid md:grid-cols-12 w-full md:h-96 aos-init aos-animate"> */}
               <div className="hidden bg-AAprimary z-10  py-4  absolute md:grid grid-cols-12 w-full h-full  content-center ">
                 <div className="relative rounded w-full h-full  col-span-7 ">
-                <Link href="https://anandamwellness-xi.vercel.app" target="_blank" rel="noopener noreferrer"><Image src="/anandam2.png" width={500} height={300} className="w-full rounded h-full transition-all duration-500 brightness-60 hover:brightness-90" alt=""></Image></Link>
+                  <Link href="https://anandamwellness-xi.vercel.app" target="_blank" rel="noopener noreferrer"><Image src="/anandam2.png" width={500} height={300} className="w-full rounded h-full transition-all duration-500 brightness-60 hover:brightness-90" alt=""></Image></Link>
                 </div>
               </div>
               <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
@@ -382,12 +421,12 @@ export default function Home() {
                     {/* **Anandam Wellness** is a full-stack telemedicine platform focused on dermatology consultations. It allows users to connect with doctors, chat in real-time, initiate secure video calls, and receive digital prescriptions. Doctors can manage their profiles, which are verified by admins before going live. The platform uses modern web technologies like Next.js, Socket.IO, WebRTC, and Razorpay. */}
                     {/* Anandam Wellness is a feature-rich telemedicine platform built with Next.js (App Router), enabling seamless online consultations between doctors and patients. This project aims to bridge the gap between healthcare providers and patients by offering real-time chat, video consultations, and digital prescriptions — all in a secure and user-friendly interface. */}
                     <p className="text-gray-300 md:text-gray-400 text-left md:text-left "> <span className="text-[rgb(100,255,218)]">Anandam Wellness </span> is a feature-rich telemedicine platform built with  <span className="text-[rgb(100,255,218)]">Next.js </span> (App Router), enabling seamless online consultations between doctors and patients. This project aims to bridge the gap between healthcare providers and patients by offering <span className="text-[rgb(100,255,218)]">real-time chat, video consultations, and digital prescriptions </span>  — all in a <span className="text-[rgb(100,255,218)]">secure</span> and user-friendly interface.
-                    <span className="text-[rgb(100,255,218)]"></span>
+                      <span className="text-[rgb(100,255,218)]"></span>
                     </p>
 
-                    </div><ul className="flex flex-wrap w-full text-gray-300 md:text-gray-400 text-sm font-Text2 md:justify-end"><span className="pr-4 z-10">React</span><span className="pr-4 z-10">Next.js</span><span className="pr-4 z-10">Next-Auth</span><span className="pr-4 z-10">Mongoose</span><span className="pr-4 z-10">Razorpay</span><span className="pr-4 z-10">Socket.IO</span><span className="pr-4 z-10">Node.js</span><span className="pr-4 z-10">Express</span></ul><div className="z-10 flex fle-row space-x-5 "><Link href="https://github.com/krishna3032004/Anandam-Wellness---a-Dermotology-plateform.git" target="_blank" rel="noreferrer"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6 text-gray-300 hover:text-AAsecondary hover:cursor-pointer  transition ease-in-out delay-50 hover:-translate-y-1  hover:scale-110 duration-200"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></Link><Link href="https://anandamwellness-xi.vercel.app" target="_blank" rel="noreferrer"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6 text-gray-300 hover:text-[rgb(100,255,218)] hover:cursor-pointer transition ease-in-out delay-50 hover:-translate-y-1  hover:scale-110 duration-200"><title>External Link</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></Link>
+                  </div><ul className="flex flex-wrap w-full text-gray-300 md:text-gray-400 text-sm font-Text2 md:justify-end"><span className="pr-4 z-10">React</span><span className="pr-4 z-10">Next.js</span><span className="pr-4 z-10">Next-Auth</span><span className="pr-4 z-10">Mongoose</span><span className="pr-4 z-10">Razorpay</span><span className="pr-4 z-10">Socket.IO</span><span className="pr-4 z-10">Node.js</span><span className="pr-4 z-10">Express</span></ul><div className="z-10 flex fle-row space-x-5 "><Link href="https://github.com/krishna3032004/Anandam-Wellness---a-Dermotology-plateform.git" target="_blank" rel="noreferrer"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6 text-gray-300 hover:text-AAsecondary hover:cursor-pointer  transition ease-in-out delay-50 hover:-translate-y-1  hover:scale-110 duration-200"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></Link><Link href="https://anandamwellness-xi.vercel.app" target="_blank" rel="noreferrer"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6 text-gray-300 hover:text-[rgb(100,255,218)] hover:cursor-pointer transition ease-in-out delay-50 hover:-translate-y-1  hover:scale-110 duration-200"><title>External Link</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></Link>
                     {/* <Link href="https://www.vision.io" target="_blank" rel="noreferrer"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6 text-gray-300 hover:text-[rgb(100,255,218)] hover:cursor-pointer transition ease-in-out delay-50 hover:-translate-y-1  hover:scale-110 duration-200"><title>External Link</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></Link> */}
-                    </div></div>
+                  </div></div>
               </div>
             </div>
 
@@ -427,7 +466,7 @@ export default function Home() {
               {/* <div className="relative md:grid md:grid-cols-12 w-full md:h-96 aos-init aos-animate"> */}
               <div className="hidden bg-AAprimary z-10  py-4  absolute md:grid grid-cols-12 w-full h-full  content-center ">
                 <div className="relative rounded w-full h-full  col-span-7 ">
-                <Link href="https://github.com/krishna3032004/GetMeACoffee-app-using-next.js.git" target="_blank" rel="noopener noreferrer"><Image src="/getmeacoffee2.png" width={500} height={300} className="w-full rounded h-full transition-all duration-500 brightness-60 hover:brightness-90" alt=""></Image></Link>
+                  <Link href="https://github.com/krishna3032004/GetMeACoffee-app-using-next.js.git" target="_blank" rel="noopener noreferrer"><Image src="/getmeacoffee2.png" width={500} height={300} className="w-full rounded h-full transition-all duration-500 brightness-60 hover:brightness-90" alt=""></Image></Link>
                 </div>
               </div>
               <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
@@ -446,12 +485,12 @@ export default function Home() {
                     </Link>
                   </div>
                   <div className="w-full md:bg-[rgb(17,35,64)] rounded-md py-6 md:p-6  z-10">
-                    <p className="text-gray-300 md:text-gray-400 text-left md:text-left ">A <span className="text-[rgb(100,255,218)]">full-stack </span>web application built with <span className="text-[rgb(100,255,218)]">Next.js </span> that replicates the core functionalities of <span className="text-[rgb(100,255,218)]">Patreon. </span> This platform allows content creators to receive payments and support from their fans. Fans can make payments, leave messages, and view the 
-                    <span className="text-[rgb(100,255,218)]"> top contributions.</span>
-                    {/* . This showcased our commitment to delivering innovative solutions. */}
+                    <p className="text-gray-300 md:text-gray-400 text-left md:text-left ">A <span className="text-[rgb(100,255,218)]">full-stack </span>web application built with <span className="text-[rgb(100,255,218)]">Next.js </span> that replicates the core functionalities of <span className="text-[rgb(100,255,218)]">Patreon. </span> This platform allows content creators to receive payments and support from their fans. Fans can make payments, leave messages, and view the
+                      <span className="text-[rgb(100,255,218)]"> top contributions.</span>
+                      {/* . This showcased our commitment to delivering innovative solutions. */}
                     </p></div><ul className="flex flex-wrap w-full text-gray-300 md:text-gray-400 text-sm font-Text2 md:justify-end"><span className="pr-4 z-10">React</span><span className="pr-4 z-10">Next.js</span><span className="pr-4 z-10">Next-Auth</span><span className="pr-4 z-10">Mongoose</span><span className="pr-4 z-10">Razorpay</span></ul><div className="z-10 flex fle-row space-x-5 "><Link href="https://github.com/krishna3032004/GetMeACoffee-app-using-next.js.git" target="_blank" rel="noreferrer"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6 text-gray-300 hover:text-AAsecondary hover:cursor-pointer  transition ease-in-out delay-50 hover:-translate-y-1  hover:scale-110 duration-200"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></Link>
                     {/* <Link href="https://www.vision.io" target="_blank" rel="noreferrer"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6 text-gray-300 hover:text-[rgb(100,255,218)] hover:cursor-pointer transition ease-in-out delay-50 hover:-translate-y-1  hover:scale-110 duration-200"><title>External Link</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></Link> */}
-                    </div></div>
+                  </div></div>
               </div>
             </div>
 
@@ -483,7 +522,7 @@ export default function Home() {
                     <p className="text-gray-300 md:text-gray-400 text-left md:text-left ">A simple and intuitive  <span className="text-[rgb(100,255,218)]">Todo List </span>application built with <span className="text-[rgb(100,255,218)]">Next.js. </span> This app allows users to manage their daily tasks efficiently by adding, updating, and deleting tasks. With a clean and user-friendly interface, users can keep track of their to-do items and organize their day effectively.
                     </p></div><ul className="flex flex-wrap w-full text-gray-300 md:text-gray-400 text-sm font-Text2 md:justify-start"><span className="pr-4 z-10">React</span><span className="pr-4 z-10">Mongodb</span><span className="pr-4 z-10">HTML/CSS</span><span className="pr-4 z-10">Javascript</span></ul><div className="z-10 flex fle-row space-x-5 "><Link href="https://github.com/krishna3032004/TODO-list-app-using-React-Mongodb.git" target="_blank" rel="noreferrer"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6 text-gray-300 hover:text-AAsecondary hover:cursor-pointer  transition ease-in-out delay-50 hover:-translate-y-1  hover:scale-110 duration-200"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></Link>
                     {/* <Link href="https://opulenza-psi.vercel.app/" target="_blank" rel="noreferrer"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6 text-gray-300 hover:text-[rgb(100,255,218)] hover:cursor-pointer transition ease-in-out delay-50 hover:-translate-y-1  hover:scale-110 duration-200"><title>External Link</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></Link> */}
-                    </div></div>
+                  </div></div>
               </div>
             </div>
 
@@ -492,7 +531,7 @@ export default function Home() {
               {/* <div className="relative md:grid md:grid-cols-12 w-full md:h-96 aos-init aos-animate"> */}
               <div className="hidden bg-AAprimary z-10  py-4  absolute md:grid grid-cols-12 w-full h-full  content-center ">
                 <div className="relative rounded w-full h-full  col-span-7 ">
-                <Link href="https://github.com/krishna3032004/Spotify-clone-.git" target="_blank" rel="noopener noreferrer"><Image src="/spotify.png" width={500} height={300} className="w-full rounded h-full transition-all duration-500 brightness-60 hover:brightness-90" alt=""></Image></Link>
+                  <Link href="https://github.com/krishna3032004/Spotify-clone-.git" target="_blank" rel="noopener noreferrer"><Image src="/spotify.png" width={500} height={300} className="w-full rounded h-full transition-all duration-500 brightness-60 hover:brightness-90" alt=""></Image></Link>
                 </div>
               </div>
               <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
@@ -516,7 +555,7 @@ export default function Home() {
                     <p className="text-gray-300 md:text-gray-400 text-left md:text-left ">This <span className="text-[rgb(100,255,218)]">Real Music Web Player </span> is a web-based music streaming platform with a <span className="text-[hsl(166,100%,70%)]">Spotify-like interface. </span>  It features a <span className="text-[rgb(100,255,218)]">simple playlist </span> where users can browse, select, and play <span className="text-[rgb(100,255,218)]">songs </span>seamlessly. The design focuses on a smooth user experience, offering an intuitive and engaging way to enjoy music online.
                     </p></div><ul className="flex flex-wrap w-full text-gray-300 md:text-gray-400 text-sm font-Text2 md:justify-end"><span className="pr-4 z-10">HTML</span><span className="pr-4 z-10">CSS</span><span className="pr-4 z-10">Javascript</span></ul><div className="z-10 flex fle-row space-x-5 "><Link href="https://github.com/krishna3032004/Spotify-clone-.git" target="_blank" rel="noreferrer"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6 text-gray-300 hover:text-AAsecondary hover:cursor-pointer  transition ease-in-out delay-50 hover:-translate-y-1  hover:scale-110 duration-200"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></Link>
                     {/* <Link href="https://www.vision.io" target="_blank" rel="noreferrer"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6 text-gray-300 hover:text-[rgb(100,255,218)] hover:cursor-pointer transition ease-in-out delay-50 hover:-translate-y-1  hover:scale-110 duration-200"><title>External Link</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></Link> */}
-                    </div></div>
+                  </div></div>
               </div>
             </div>
 
