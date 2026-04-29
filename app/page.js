@@ -254,7 +254,7 @@ export default function Home() {
                 <div className="absolute w-5/6 h-5/6  rounded overflow-hidden">
                   {/* <div className="absolute w-full h-[36vh] group-hover:opacity-0 bg-[rgb(100,255,218)] opacity-10 duration-300 rounded overflow-hidden"></div> */}
                   <Image
-                    src="/photo.jpg"
+                    src="/photo2.jpeg"
                     alt="Profile Picture"
                     width={400}
                     height={400}
